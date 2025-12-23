@@ -36,6 +36,8 @@ def format_data(res):
     data['phone'] = res['phone']
     data['picture'] = res['picture']['medium']
     
+    return data
+    
 # 1 Usage
 def stream_data():
     import json
